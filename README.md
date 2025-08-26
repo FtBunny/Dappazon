@@ -6,7 +6,8 @@ Users can **browse products, view details, and purchase items** directly through
 ---
 
 ## 🔎 Preview
-_(Add screenshots or GIF here)_
+
+![App Screenshot](src/assets/Screenshot.png)  
 
 ---
 
@@ -29,8 +30,8 @@ Before you begin, make sure you have the following installed:
  1. **Clone the Repository**
 
   ```
-  git clone https://github.com/FtBunny/Millow.git
-  cd Millow
+  git clone https://github.com/FtBunny/Dappazon.git
+  cd Dappazon
   ```
 
 2. **Install Dependencies**
