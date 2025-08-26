@@ -1,31 +1,75 @@
-# Dappazon
+# 🛒 Dappazon – Decentralized Amazon Clone
 
-## Technology Stack & Tools
+A **React.js + Hardhat** frontend for a blockchain-based e-commerce marketplace.  
+Users can **browse products, view details, and purchase items** directly through Ethereum smart contracts (`Dappazon.sol`).
 
-- Solidity (Writing Smart Contracts & Tests)
-- Javascript (React & Testing)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
+---
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/)
+## 🔎 Preview
+_(Add screenshots or GIF here)_
 
-## Setting Up
-### 1. Clone/Download the Repository
+---
 
-### 2. Install Dependencies:
-`$ npm install`
+## 📦 Prerequisites
 
-### 3. Run tests
-`$ npx hardhat test`
+Before you begin, make sure you have the following installed:
 
-### 4. Start Hardhat node
-`$ npx hardhat node`
+- 📌 [Node.js](https://nodejs.org/) (v18+ recommended)  
+- 📌 npm  
+- 🔗 [MetaMask](https://metamask.io/) (or any Ethereum wallet browser extension)  
+- 🖥️ Git for cloning the repository  
+- ⚡ [Hardhat](https://hardhat.org/) – Ethereum development environment  
 
-### 5. Run deployment script
-In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
+👉 You’ll also need the deployed **Dappazon smart contract**.
 
-### 6. Start frontend
-`$ npm run start`
+---
+
+## ⚙️ Setting Up  
+
+ 1. **Clone the Repository**
+
+  ```
+  git clone https://github.com/FtBunny/Millow.git
+  cd Millow
+  ```
+
+2. **Install Dependencies**
+  ```
+  npm install
+  ```
+
+3. **Run Tests (Optional)**
+  ```
+  npx hardhat test
+  ```
+
+4. **Start Hardhat Node**
+  ```
+  npx hardhat node
+  ```
+
+5. **Deploy Contracts**  
+  In a separate terminal:
+  ```
+  npx hardhat run ./scripts/deploy.js --network localhost
+  ```
+
+6. **Start Frontend**
+  ```
+  npm start
+  ```
+  The app will open at [http://localhost:3000](http://localhost:3000)
+
+  > Make sure your MetaMask is connected to localhost 8545 (Hardhat network).
+
+---
+
+## 🚀 Usage
+
+- 🛍️ **Browse Products** – All products listed in the `Dappazon` contract will display on the homepage  
+- 🔍 **Filter by Category** – Clothing, Electronics, Toys  
+- 📋 **View Product Details** – Click a product card to view details in a modal popup  
+- 💰 **Purchase Items** – Buy directly using ETH (via MetaMask + contract transaction)  
+
+---
+
